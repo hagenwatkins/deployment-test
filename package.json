@@ -1,0 +1,17 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "scss": "node-sass scss/style.scss public/style.css --watch",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5",
+    "node-sass": "^4.5.3"
+  }
+}
